@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<parameter name="Url"
+		value="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"></parameter>
+	<parameter name="Username" value="Admin"></parameter>
+	<parameter name="Password" value="admin123"></parameter>
+
+	<test name="Test">
+		<classes>
+			<class name="Testng.LoginTest" />
+		</classes>
+	</test>
+</suite> 
